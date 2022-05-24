@@ -18,7 +18,7 @@ body {
 
 /* Цвет логотипа */
 .logo {
-  color: #000000;
+  color: red;
   font-family: "Raleway";
   font-weight: 700;
   font-size: 26px;
