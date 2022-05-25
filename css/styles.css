@@ -84,7 +84,7 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #ffffff;
+  color: blue;
   background-color: #2f303a;
 }
 
@@ -142,6 +142,8 @@ body {
 
 .work-items {
   list-style: none;
+  display: flex;
+  justify-content: center;
 }
 
 /* Наша команда */
@@ -151,6 +153,8 @@ body {
 
 .our-team-items {
   list-style: none;
+  display: flex;
+  justify-content: center;
 }
 
 .our-team-name {
