@@ -142,6 +142,8 @@ body {
 
 .work-items {
   list-style: none;
+  display: flex;
+  justify-content: center;
 }
 
 /* Наша команда */
@@ -151,6 +153,8 @@ body {
 
 .our-team-items {
   list-style: none;
+  display: flex;
+  justify-content: center;
 }
 
 .our-team-name {
