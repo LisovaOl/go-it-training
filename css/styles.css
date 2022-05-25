@@ -13,13 +13,13 @@
 body {
   background-color: #ffffff;
   color: #757575;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 /* Цвет логотипа */
 .logo {
   color: red;
-  font-family: "Raleway";
+  font-family: 'Raleway';
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
@@ -72,7 +72,7 @@ body {
 }
 
 /* Блок решения 
-с кнопкой заказать услугу   */
+  с кнопкой заказать услугу   */
 .order-type {
   background-color: #2f303a;
 }
@@ -94,8 +94,12 @@ body {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
   color: #ffffff;
@@ -142,8 +146,12 @@ body {
 
 .work-items {
   list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 /* Наша команда */
@@ -153,8 +161,12 @@ body {
 
 .our-team-items {
   list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .our-team-name {
@@ -224,7 +236,7 @@ body {
 
 .logo-foot {
   color: #ffffff;
-  font-family: "Raleway";
+  font-family: 'Raleway';
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
@@ -253,7 +265,7 @@ body {
 }
 
 .contacts {
-  color: rgba(255, 255, 255, 0.6);
+  color: #ffffff99;
 }
 
 .link-map:hover,
@@ -261,4 +273,5 @@ body {
 .contacts:hover,
 .contacts:focus {
   color: var(--acsent-color);
-}/*# sourceMappingURL=styles.css.map */
+}
+/*# sourceMappingURL=styles.css.map */
