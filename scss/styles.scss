@@ -130,6 +130,8 @@
   }
   .work-items{
     list-style: none;
+    display: flex;
+    justify-content: center;
   }
   
   /* Наша команда */
@@ -138,6 +140,8 @@
   }
   .our-team-items{
     list-style: none;
+    display: flex;
+    justify-content: center;
   }
   .our-team-name{
     font-weight: 500;
